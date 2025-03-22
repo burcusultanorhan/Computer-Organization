@@ -1,3 +1,0 @@
-module ALU32bit_testbench();
-
-endmodule
