@@ -1,0 +1,1 @@
+module MainControl(OpCode, regDst, ALUsrc, MemtoReg, RegWrite, MemRead, MemWrite, Branch, NotBranch, Jump, ALUOp)

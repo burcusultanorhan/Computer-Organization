@@ -1,0 +1,327 @@
+# Reading C:/altera/13.1/modelsim_ase/tcl/vsim/pref.tcl 
+# do MIPS_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/altera/1901042667_hw3 {C:/altera/1901042667_hw3/MainControl.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module MainControl
+# 
+# Top level modules:
+# 	MainControl
+# vlog -vlog01compat -work work +incdir+C:/altera/1901042667_hw3 {C:/altera/1901042667_hw3/_full_adder.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module full_adder
+# 
+# Top level modules:
+# 	full_adder
+# vlog -vlog01compat -work work +incdir+C:/altera/1901042667_hw3 {C:/altera/1901042667_hw3/_8bit_adder.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module _8bit_adder
+# 
+# Top level modules:
+# 	_8bit_adder
+# vlog -vlog01compat -work work +incdir+C:/altera/1901042667_hw3 {C:/altera/1901042667_hw3/_4bit_adder.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module _4bit_adder
+# 
+# Top level modules:
+# 	_4bit_adder
+# vlog -vlog01compat -work work +incdir+C:/altera/1901042667_hw3 {C:/altera/1901042667_hw3/_32bit_xor.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module _32bit_xor
+# 
+# Top level modules:
+# 	_32bit_xor
+# vlog -vlog01compat -work work +incdir+C:/altera/1901042667_hw3 {C:/altera/1901042667_hw3/_32bit_sub.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module _32bit_sub
+# 
+# Top level modules:
+# 	_32bit_sub
+# vlog -vlog01compat -work work +incdir+C:/altera/1901042667_hw3 {C:/altera/1901042667_hw3/_32bit_slt.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module _32bit_slt
+# 
+# Top level modules:
+# 	_32bit_slt
+# vlog -vlog01compat -work work +incdir+C:/altera/1901042667_hw3 {C:/altera/1901042667_hw3/_32bit_or.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module _32bit_or
+# 
+# Top level modules:
+# 	_32bit_or
+# vlog -vlog01compat -work work +incdir+C:/altera/1901042667_hw3 {C:/altera/1901042667_hw3/_32bit_nor.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module _32bit_nor
+# 
+# Top level modules:
+# 	_32bit_nor
+# vlog -vlog01compat -work work +incdir+C:/altera/1901042667_hw3 {C:/altera/1901042667_hw3/_32bit_and.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module _32bit_and
+# 
+# Top level modules:
+# 	_32bit_and
+# vlog -vlog01compat -work work +incdir+C:/altera/1901042667_hw3 {C:/altera/1901042667_hw3/_32bit_adder.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module _32bit_adder
+# 
+# Top level modules:
+# 	_32bit_adder
+# vlog -vlog01compat -work work +incdir+C:/altera/1901042667_hw3 {C:/altera/1901042667_hw3/mux8x1.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module mux8x1
+# 
+# Top level modules:
+# 	mux8x1
+# vlog -vlog01compat -work work +incdir+C:/altera/1901042667_hw3 {C:/altera/1901042667_hw3/mux4x1.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module mux4x1
+# 
+# Top level modules:
+# 	mux4x1
+# vlog -vlog01compat -work work +incdir+C:/altera/1901042667_hw3 {C:/altera/1901042667_hw3/mux2x1.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module mux2x1
+# 
+# Top level modules:
+# 	mux2x1
+# vlog -vlog01compat -work work +incdir+C:/altera/1901042667_hw3 {C:/altera/1901042667_hw3/half_adder.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module half_adder
+# 
+# Top level modules:
+# 	half_adder
+# vlog -vlog01compat -work work +incdir+C:/altera/1901042667_hw3 {C:/altera/1901042667_hw3/ALU32bit.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ALU32bit
+# 
+# Top level modules:
+# 	ALU32bit
+# vlog -vlog01compat -work work +incdir+C:/altera/1901042667_hw3 {C:/altera/1901042667_hw3/MIPS.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module MIPS
+# 
+# Top level modules:
+# 	MIPS
+# vlog -vlog01compat -work work +incdir+C:/altera/1901042667_hw3 {C:/altera/1901042667_hw3/instructionMemory.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module instructionMemory
+# 
+# Top level modules:
+# 	instructionMemory
+# vlog -vlog01compat -work work +incdir+C:/altera/1901042667_hw3 {C:/altera/1901042667_hw3/SelectDestination.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module SelectDestination
+# 
+# Top level modules:
+# 	SelectDestination
+# vlog -vlog01compat -work work +incdir+C:/altera/1901042667_hw3 {C:/altera/1901042667_hw3/ALUControl.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ALUControl
+# 
+# Top level modules:
+# 	ALUControl
+# vlog -vlog01compat -work work +incdir+C:/altera/1901042667_hw3 {C:/altera/1901042667_hw3/registerOperations.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module registerOperations
+# 
+# Top level modules:
+# 	registerOperations
+# vlog -vlog01compat -work work +incdir+C:/altera/1901042667_hw3 {C:/altera/1901042667_hw3/memoryOperations.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module memoryOperations
+# 
+# Top level modules:
+# 	memoryOperations
+# 
+vlog -reportprogress 300 -work work C:/altera/1901042667_hw3/SpecialTestBench.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module SpecialTestBench
+# 
+# Top level modules:
+# 	SpecialTestBench
+vsim work.SpecialTestBench
+# vsim work.SpecialTestBench 
+# Loading work.SpecialTestBench
+# Loading work.MIPS
+# Loading work.instructionMemory
+# Loading work.MainControl
+# Loading work.SelectDestination
+# Loading work.registerOperations
+# Loading work.ALUControl
+# Loading work.mux2x1
+# Loading work._32bit_or
+# Loading work.ALU32bit
+# Loading work._32bit_adder
+# Loading work._8bit_adder
+# Loading work._4bit_adder
+# Loading work.full_adder
+# Loading work.half_adder
+# Loading work._32bit_sub
+# Loading work._32bit_xor
+# Loading work._32bit_and
+# Loading work._32bit_slt
+# Loading work._32bit_nor
+# Loading work.mux8x1
+# Loading work.mux4x1
+# Loading work.memoryOperations
+# ** Warning: (vsim-3015) C:/altera/1901042667_hw3/ALU32bit.v(9): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'Cin'. The port definition is at: C:/altera/1901042667_hw3/_32bit_adder.v(1).
+# 
+#         Region: /SpecialTestBench/theMIPS/myALU/g0
+# ** Warning: (vsim-3015) C:/altera/1901042667_hw3/ALU32bit.v(10): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'Cin'. The port definition is at: C:/altera/1901042667_hw3/_32bit_sub.v(1).
+# 
+#         Region: /SpecialTestBench/theMIPS/myALU/g2
+# ** Warning: (vsim-3015) C:/altera/1901042667_hw3/_32bit_slt.v(7): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'Cin'. The port definition is at: C:/altera/1901042667_hw3/_32bit_sub.v(1).
+# 
+#         Region: /SpecialTestBench/theMIPS/myALU/g3/f
+# ** Warning: (vsim-3015) C:/altera/1901042667_hw3/_32bit_slt.v(8): [PCDPC] - Port size (1 or 1) does not match connection size (16) for port 'Cin'. The port definition is at: C:/altera/1901042667_hw3/_32bit_adder.v(1).
+# 
+#         Region: /SpecialTestBench/theMIPS/myALU/g3/f1
+add wave -position insertpoint sim:/SpecialTestBench/*
+step -current
+# ** Warning: (vsim-7) Failed to open readmem file "specialInstruction.txt" in read mode.
+# 
+# No such file or directory. (errno = ENOENT)    : C:/altera/1901042667_hw3/SpecialTestBench.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /SpecialTestBench
+vlog -reportprogress 300 -work work C:/altera/1901042667_hw3/MIPS_testbench.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module MIPS_testbench
+# 
+# Top level modules:
+# 	MIPS_testbench
+vsim work.MIPS_testbench
+# vsim work.MIPS_testbench 
+# Loading work.MIPS_testbench
+# Loading work.MIPS
+# Loading work.instructionMemory
+# Loading work.MainControl
+# Loading work.SelectDestination
+# Loading work.registerOperations
+# Loading work.ALUControl
+# Loading work.mux2x1
+# Loading work._32bit_or
+# Loading work.ALU32bit
+# Loading work._32bit_adder
+# Loading work._8bit_adder
+# Loading work._4bit_adder
+# Loading work.full_adder
+# Loading work.half_adder
+# Loading work._32bit_sub
+# Loading work._32bit_xor
+# Loading work._32bit_and
+# Loading work._32bit_slt
+# Loading work._32bit_nor
+# Loading work.mux8x1
+# Loading work.mux4x1
+# Loading work.memoryOperations
+# ** Warning: (vsim-3015) C:/altera/1901042667_hw3/ALU32bit.v(9): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'Cin'. The port definition is at: C:/altera/1901042667_hw3/_32bit_adder.v(1).
+# 
+#         Region: /MIPS_testbench/myMIPS/myALU/g0
+# ** Warning: (vsim-3015) C:/altera/1901042667_hw3/ALU32bit.v(10): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'Cin'. The port definition is at: C:/altera/1901042667_hw3/_32bit_sub.v(1).
+# 
+#         Region: /MIPS_testbench/myMIPS/myALU/g2
+# ** Warning: (vsim-3015) C:/altera/1901042667_hw3/_32bit_slt.v(7): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'Cin'. The port definition is at: C:/altera/1901042667_hw3/_32bit_sub.v(1).
+# 
+#         Region: /MIPS_testbench/myMIPS/myALU/g3/f
+# ** Warning: (vsim-3015) C:/altera/1901042667_hw3/_32bit_slt.v(8): [PCDPC] - Port size (1 or 1) does not match connection size (16) for port 'Cin'. The port definition is at: C:/altera/1901042667_hw3/_32bit_adder.v(1).
+# 
+#         Region: /MIPS_testbench/myMIPS/myALU/g3/f1
+add wave -position insertpoint sim:/MIPS_testbench/*
+step -current
+# time=  0, clock= 1, PC= 0000000000, instruction= 00000000000001001000001000000000,
+# opcode= 000000, rs= 0000, rt= 0001, rd= 0010, func=   0000, imm= 0010000010000000
+# data1= 0000000000000000, data2= 0000000000000001,
+# written data= zzzzzzzzzzzzzzzz,
+# ALUop= 111, ALUcontrol= 000, ALUresult= 0000000000000001, Destination result = 0000000000000001
+# RegDst= 1, ALUsrc= 0, MemtoReg= 0, RegWrite= 1,MemRead= 0, MemWrite= 0, Branch= 0, NotBranch= 0, Jump= 0
+# 
+# 
+# time= 20, clock= 0, PC= 0000000001, instruction= 00000000000001001000001000000000,
+# opcode= 000000, rs= 0000, rt= 0001, rd= 0010, func=   0000, imm= 0010000010000000
+# data1= 0000000000000000, data2= 0000000000000001,
+# written data= zzzzzzzzzzzzzzzz,
+# ALUop= 111, ALUcontrol= 000, ALUresult= 0000000000000001, Destination result = 0000000000000001
+# RegDst= 1, ALUsrc= 0, MemtoReg= 0, RegWrite= 1,MemRead= 0, MemWrite= 0, Branch= 0, NotBranch= 0, Jump= 0
+# 
+# 
+# time= 40, clock= 1, PC= 0000000001, instruction= 00000000110100010100001000100000,
+# opcode= 000000, rs= 0011, rt= 0100, rd= 0101, func=   0010, imm= 0101000010001000
+# data1= 0000000000000011, data2= 0000000000000100,
+# written data= zzzzzzzzzzzzzzzz,
+# ALUop= 111, ALUcontrol= 001, ALUresult= 1111111111111111, Destination result = 0000000000000100
+# RegDst= 1, ALUsrc= 0, MemtoReg= 0, RegWrite= 1,MemRead= 0, MemWrite= 0, Branch= 0, NotBranch= 0, Jump= 0
+# 
+# 
+# time= 60, clock= 0, PC= 0000000010, instruction= 00000000110100010100001000100000,
+# opcode= 000000, rs= 0011, rt= 0100, rd= 0101, func=   0010, imm= 0101000010001000
+# data1= 0000000000000011, data2= 0000000000000100,
+# written data= zzzzzzzzzzzzzzzz,
+# ALUop= 111, ALUcontrol= 001, ALUresult= 1111111111111111, Destination result = 0000000000000100
+# RegDst= 1, ALUsrc= 0, MemtoReg= 0, RegWrite= 1,MemRead= 0, MemWrite= 0, Branch= 0, NotBranch= 0, Jump= 0
+# 
+# 
+# time= 80, clock= 1, PC= 0000000010, instruction= 00000001100111100000001001000000,
+# opcode= 000000, rs= 0110, rt= 0111, rd= 1000, func=   0100, imm= 1000000010010000
+# data1= 0000000000000110, data2= 0000000000000111,
+# written data= zzzzzzzzzzzzzzzz,
+# ALUop= 111, ALUcontrol= 100, ALUresult= 0000000000000110, Destination result = 0000000000000111
+# RegDst= 1, ALUsrc= 0, MemtoReg= 0, RegWrite= 1,MemRead= 0, MemWrite= 0, Branch= 0, NotBranch= 0, Jump= 0
+# 
+# 
+# time= 100, clock= 0, PC= 0000000011, instruction= 00000001100111100000001001000000,
+# opcode= 000000, rs= 0110, rt= 0111, rd= 1000, func=   0100, imm= 1000000010010000
+# data1= 0000000000000110, data2= 0000000000000111,
+# written data= zzzzzzzzzzzzzzzz,
+# ALUop= 111, ALUcontrol= 100, ALUresult= 0000000000000110, Destination result = 0000000000000111
+# RegDst= 1, ALUsrc= 0, MemtoReg= 0, RegWrite= 1,MemRead= 0, MemWrite= 0, Branch= 0, NotBranch= 0, Jump= 0
+# 
+# 
+# time= 120, clock= 1, PC= 0000000011, instruction= 00000010011010101100001001010000,
+# opcode= 000000, rs= 1001, rt= 1010, rd= 1011, func=   0101, imm= 1011000010010100
+# data1= 0000000000001001, data2= 0000000000001010,
+# written data= zzzzzzzzzzzzzzzz,
+# ALUop= 111, ALUcontrol= 101, ALUresult= 0000000000001011, Destination result = 0000000000001010
+# RegDst= 1, ALUsrc= 0, MemtoReg= 0, RegWrite= 1,MemRead= 0, MemWrite= 0, Branch= 0, NotBranch= 0, Jump= 0
+# 
+# 
+# time= 140, clock= 0, PC= 0000000100, instruction= 00000010011010101100001001010000,
+# opcode= 000000, rs= 1001, rt= 1010, rd= 1011, func=   0101, imm= 1011000010010100
+# data1= 0000000000001001, data2= 0000000000001010,
+# written data= zzzzzzzzzzzzzzzz,
+# ALUop= 111, ALUcontrol= 101, ALUresult= 0000000000001011, Destination result = 0000000000001010
+# RegDst= 1, ALUsrc= 0, MemtoReg= 0, RegWrite= 1,MemRead= 0, MemWrite= 0, Branch= 0, NotBranch= 0, Jump= 0
+# 
+# 
+# time= 160, clock= 1, PC= 0000000100, instruction= 00000011001101111000001010100000,
+# opcode= 000000, rs= 1100, rt= 1101, rd= 1110, func=   1010, imm= 1110000010101000
+# data1= 0000000000001100, data2= 0000000000001101,
+# written data= zzzzzzzzzzzzzzzz,
+# ALUop= 111, ALUcontrol= 110, ALUresult= 0000000000000001, Destination result = 0000000000001101
+# RegDst= 1, ALUsrc= 0, MemtoReg= 0, RegWrite= 1,MemRead= 0, MemWrite= 0, Branch= 0, NotBranch= 0, Jump= 0
+# 
+# 
+# time= 180, clock= 0, PC= 0000000101, instruction= 00000011001101111000001010100000,
+# opcode= 000000, rs= 1100, rt= 1101, rd= 1110, func=   1010, imm= 1110000010101000
+# data1= 0000000000001100, data2= 0000000000001101,
+# written data= zzzzzzzzzzzzzzzz,
+# ALUop= 111, ALUcontrol= 110, ALUresult= 0000000000000001, Destination result = 0000000000001101
+# RegDst= 1, ALUsrc= 0, MemtoReg= 0, RegWrite= 1,MemRead= 0, MemWrite= 0, Branch= 0, NotBranch= 0, Jump= 0
+# 
+# 
+# time= 200, clock= 1, PC= 0000000101, instruction= 00100000000001000010101100010100,
+# opcode= 001000, rs= 0000, rt= 0001, rd= 0000, func=   0001, imm= 0000101011000101
+# data1= 0000000000000000, data2= 0000000000000001,
+# written data= zzzzzzzzzzzzzzzz,
+# ALUop= 110, ALUcontrol= 110, ALUresult= 0000000000000001, Destination result = 0000101011000101
+# RegDst= 0, ALUsrc= 1, MemtoReg= 0, RegWrite= 1,MemRead= 0, MemWrite= 0, Branch= 0, NotBranch= 0, Jump= 0
+# 
+# 

@@ -1,0 +1,13 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+C:/altera/1901042667_hw3 {C:/altera/1901042667_hw3/MainControl.v}
+vlog -vlog01compat -work work +incdir+C:/altera/1901042667_hw3 {C:/altera/1901042667_hw3/MIPS.v}
+vlog -vlog01compat -work work +incdir+C:/altera/1901042667_hw3 {C:/altera/1901042667_hw3/instructionMemory.v}
+vlog -vlog01compat -work work +incdir+C:/altera/1901042667_hw3 {C:/altera/1901042667_hw3/SelectDestination.v}
+vlog -vlog01compat -work work +incdir+C:/altera/1901042667_hw3 {C:/altera/1901042667_hw3/SelectALUSource.v}
+
