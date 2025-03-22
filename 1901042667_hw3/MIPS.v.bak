@@ -1,0 +1,60 @@
+module MIPS(clock, ProgramCounter)
+	input clock;
+	input[31:0] ProgramCounter;
+	
+	wire [31:0] instruction;
+	wire [5:0] OpCode;
+	wire [3:0] RsAddress, RtAddress, RdAddress,func,write_reg;
+	wire [31:0] alu_input2,alu_output,jump_address,branch_address;
+	wire [31:0] memory_address;
+	wire [5:0] imm_num;
+	wire [31:0] _32_imm_num;
+	wire [2:0] alu_ctrl;
+	wire [2:0] alu_op;
+	wire [31:0] read_data1,read_data2,mem_read_data;
+	wire [31:0] write_data; 
+	wire alu_src,reg_write,reg_write2,mem_to_reg,mem_read,mem_write,branch,sign_extend;
+	wire reg_dest;
+	wire I0,I1,I2,I3,I4,I5;
+	wire r_types;
+	wire [2:0] read_reg1,read_reg2;
+	wire [31:0] alu_input1;
+	wire [31:0] alu_result;
+
+	//initial pc_address = 32'b0000;
+	instruction_memory instr(pc_address,_instruction);
+
+	not (I0,op_code[0]);
+	not (I1,op_code[1]);
+	not (I2,op_code[2]);
+	not (I3,op_code[3]);
+
+	and (r_types,I0,I1,I2,I3,I4,I5);
+
+	or (op_code[3],_instruction[15],0);
+	or (op_code[2],_instruction[14],0);
+	or (op_code[1],_instruction[13],0);
+	or (op_code[0],_instruction[12],0);
+
+	or (rs_address[2],_instruction[11],0);
+	or (rs_address[1],_instruction[10],0);
+	or (rs_address[0],_instruction[9],0);
+
+	or (rt_address[2],_instruction[8],0);
+	or (rt_address[1],_instruction[7],0);
+	or (rt_address[0],_instruction[6],0);
+
+	or (rd_address[2],_instruction[5],0);
+	or (rd_address[1],_instruction[4],0);
+	or (rd_address[0],_instruction[3],0);
+
+	or (func[2],_instruction[2],0);
+	or (func[1],_instruction[1],0);
+	or (func[0],_instruction[0],0);
+
+	or (imm_num[5],_instruction[5],0);
+	or (imm_num[4],_instruction[4],0);
+	or (imm_num[3],_instruction[3],0);
+	or (imm_num[2],_instruction[2],0);
+	or (imm_num[1],_instruction[1],0);
+	or (imm_num[0],_instruction[0],0);

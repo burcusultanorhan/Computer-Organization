@@ -1,0 +1,22 @@
+module SpecialTestBench();
+
+	reg clk;
+	
+	MIPS myMIPS(clk);
+	
+	initial clk = 0;
+	
+	initial begin
+		$readmemb("registers.txt", myMIPS.myRegister.registers);
+		$readmemb("memory.txt", myMIPS.myMemory.myDataMemory);
+		$readmemb("specialInstruction.txt", myMIPS.myInstruction.instructions);
+		
+		clk = ~clk; #`DELAY;
+		clk = ~clk; #`DELAY;	
+		clk = ~clk; #`DELAY;
+		
+		$writememb("registersOutput.txt", myMIPS.myRegister.registers);
+		$writememb("memoryOutput.txt", myMIPS.myMemory.myDataMemory);
+	end
+
+endmodule
